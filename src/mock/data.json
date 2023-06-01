@@ -1,0 +1,572 @@
+{
+    "data": [
+        {
+            "capacity": {
+                "done": 3,
+                "donging": 3,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 6,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 2,
+                "overdue": 0,
+                "total": 2,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": 0,
+                "donging": 1,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 1,
+                "type": "monitor"
+            },
+            "network": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "network"
+            },
+            "prd_line": "ads",
+            "依赖异常": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "依赖异常"
+            }
+        },
+        {
+            "capacity": {
+                "done": 1,
+                "donging": 3,
+                "not_start": 168,
+                "overdue": 0,
+                "total": 172,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 1,
+                "overdue": 0,
+                "total": 1,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": 94,
+                "donging": 10,
+                "not_start": 488,
+                "overdue": 0,
+                "total": 592,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 1,
+                "overdue": 0,
+                "total": 1,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "monitor"
+            },
+            "network": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 6,
+                "overdue": 0,
+                "total": 6,
+                "type": "network"
+            },
+            "prd_line": "base",
+            "依赖异常": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "依赖异常"
+            }
+        },
+        {
+            "capacity": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": 6,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 6,
+                "type": "monitor"
+            },
+            "network": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "network"
+            },
+            "prd_line": "fulishe",
+            "依赖异常": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "依赖异常"
+            }
+        },
+        {
+            "capacity": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": 1,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 1,
+                "type": "monitor"
+            },
+            "network": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "network"
+            },
+            "prd_line": "live",
+            "依赖异常": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "依赖异常"
+            }
+        },
+        {
+            "capacity": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": 3,
+                "donging": 0,
+                "not_start": 3,
+                "overdue": 0,
+                "total": 6,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 5,
+                "overdue": 0,
+                "total": 5,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": 0,
+                "donging": 2,
+                "not_start": 1,
+                "overdue": 0,
+                "total": 3,
+                "type": "monitor"
+            },
+            "network": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "network"
+            },
+            "prd_line": "rec",
+            "依赖异常": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 2,
+                "overdue": 0,
+                "total": 2,
+                "type": "依赖异常"
+            }
+        },
+        {
+            "capacity": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 1,
+                "overdue": 0,
+                "total": 1,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 1,
+                "overdue": 0,
+                "total": 1,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": 7,
+                "donging": 1,
+                "not_start": 2,
+                "overdue": 0,
+                "total": 10,
+                "type": "monitor"
+            },
+            "network": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "network"
+            },
+            "prd_line": "search",
+            "依赖异常": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "依赖异常"
+            }
+        },
+        {
+            "capacity": {
+                "done": 43,
+                "donging": 0,
+                "not_start": 2,
+                "overdue": 0,
+                "total": 45,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 6,
+                "overdue": 0,
+                "total": 6,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": 7,
+                "donging": 0,
+                "not_start": 1,
+                "overdue": 0,
+                "total": 8,
+                "type": "monitor"
+            },
+            "network": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "network"
+            },
+            "prd_line": "shequ",
+            "依赖异常": {
+                "done": 0,
+                "donging": 0,
+                "not_start": 0,
+                "overdue": 0,
+                "total": 0,
+                "type": "依赖异常"
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,527 @@
+{
+    "data": [
+        {
+            "capacity": {
+                "done": {
+                    "height": 1,
+                    "middle": 2,
+                    "low": 0,
+                    "total": 3
+                },
+                "donging": {
+                    "height": 1,
+                    "middle": 2,
+                    "low": 0,
+                    "total": 3
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 6,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 2,
+                    "low": 0,
+                    "total": 2
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 2,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 1,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 1
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 1,
+                "type": "monitor"
+            },
+            "network": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "network"
+            },
+            "prd_line": "ads",
+            "依赖异常": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "依赖异常"
+            }
+        },
+        {
+            "capacity": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 1,
+                    "total": 1
+                },
+                "donging": {
+                    "height": 1,
+                    "middle": 1,
+                    "low": 1,
+                    "total": 3
+                },
+                "not_start": {
+                    "height": 162,
+                    "middle": 4,
+                    "low": 2,
+                    "total": 168
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 172,
+                "type": {
+                    "capacity": [
+                        "cpu",
+                        "disk",
+                        "mem"
+                    ]
+                }
+            },
+            "core": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 1,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 1,
+                "type": "core"
+            },
+            "dbalert": {
+                "done": {
+                    "height": 0,
+                    "middle": 92,
+                    "low": 2,
+                    "total": 94
+                },
+                "donging": {
+                    "height": 5,
+                    "middle": 5,
+                    "low": 0,
+                    "total": 10
+                },
+                "not_start": {
+                    "height": 400,
+                    "middle": 80,
+                    "low": 8,
+                    "total": 488
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 592,
+                "type": "dbalert"
+            },
+            "degradation": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "degradation"
+            },
+            "fd": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 1,
+                    "low": 0,
+                    "total": 1
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 1,
+                "type": "fd"
+            },
+            "middleware": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "middleware"
+            },
+            "monitor": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "monitor"
+            },
+            "network": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 3,
+                    "middle": 3,
+                    "low": 0,
+                    "total": 6
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 6,
+                "type": "network"
+            },
+            "prd_line": "base",
+            "依赖异常": {
+                "done": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "donging": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "not_start": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "overdue": {
+                    "height": 0,
+                    "middle": 0,
+                    "low": 0,
+                    "total": 0
+                },
+                "total": 0,
+                "type": "依赖异常"
+            }
+        }
+
+    ]
+}

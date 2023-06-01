@@ -1,0 +1,70 @@
+.ml {
+  margin-bottom: 20px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.flex-middle{
+  display: flex;
+  align-items: center;
+}
+
+.pb25{
+  padding-bottom: 25px;
+}
+.pl25{
+  padding-left: 25px;
+}
+
+.pr5{
+  padding-right: 5px;
+}
+.pl10{
+  padding-left: 10px;
+}
+.mt15{
+  margin-top: 15px;
+}
+.cursor{
+
+  cursor: pointer;
+}
+.inlineBox{
+  display: inline-block;
+}
+.badge-soft-secondary{
+  color: #7d899b;
+  background-color: #e3e6ea;
+}
+.mr10{
+  margin-right: 10px;
+}
+
+
+.positionRight{
+
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.f13{
+
+  font-size: 13px;
+}
+.mr5{
+
+  margin-right: 5px;
+}
+
+.flex-space-between{
+
+  display: flex;
+  justify-content: space-between;
+}
+
