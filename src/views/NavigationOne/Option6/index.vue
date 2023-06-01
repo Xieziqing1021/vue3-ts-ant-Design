@@ -1,40 +1,37 @@
 <template>
     <div>
-        <a-table 
-            :columns="columns" 
-            :data-source="newResultDara"
-            :loading="listLoading"
-            :pagination=false
-            row-key="id"
-            :scroll="{x: true }"
-            :show-sorter-tooltip="false">
-            <template #headerCell="{ column }">
-              <template v-if="column.key === 'name'">
-                <span>
-                  <smile-outlined />
-                  Name
-                </span>
-              </template>
+        <!-- <a-table 
+          :columns="columns" 
+          :data-source="newResultDara"
+          :loading="listLoading"
+          :pagination=false
+          row-key="id"
+          :scroll="{x: true }"
+          :show-sorter-tooltip="false">
+          <template #headerCell="{ column }">
+            <template v-if="column.key === 'name'">
+              <span>
+                <smile-outlined />
+                Name
+              </span>
             </template>
-            <template #bodyCell="{ column, record }">
-              <template v-if="column.key === 'price'">
-                <a-tag color="blue">
-                  {{ record.price }}
-                </a-tag>
-              </template>
-              <template v-if="column.key === 'picture'">
-                <span>
-                  <img :src="record.picture" alt="" width="100">
-                </span>
-              </template>
-              <template v-if="column.key === 'operation'">
-                <a-button type="primary" danger ghost @click="openDetail(record.id)">详情</a-button>
-                <!-- <router-link
-                :to="{ name:'operation7' , params:{id:record.id }}"
-              > {{ '详情' }}</router-link> -->
-              </template>
+          </template>
+          <template #bodyCell="{ column, record }">
+            <template v-if="column.key === 'price'">
+              <a-tag color="blue">
+                {{ record.price }}
+              </a-tag>
             </template>
-          </a-table>
+            <template v-if="column.key === 'picture'">
+              <span>
+                <img :src="record.picture" alt="" width="100">
+              </span>
+            </template>
+            <template v-if="column.key === 'operation'">
+              <a-button type="primary" danger ghost @click="openDetail(record.id)">详情</a-button>
+            </template>
+          </template>
+        </a-table> -->
     </div>
 </template>
 <script lang="tsx" setup>
@@ -101,7 +98,6 @@
     }
     //点击详情跳转至option7
     const openDetail = async(id:string)=>{
-      // console.log(id,'点击了');
       const res = await http.get('/goods',{
         params:{
           id,
@@ -110,7 +106,6 @@
       const query ={
         id:id
       }
-      // console.log(res,);
       router.push({name:'option7',query:{id:10}})
       
     }

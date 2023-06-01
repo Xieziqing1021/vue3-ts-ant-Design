@@ -2,32 +2,14 @@
   <div  class="flex-space-between">
 
     <div class="echartsBox">
-      <Piepicture
-      :pieData="data">
-      </Piepicture>
-      <div :class="{mbn: 10>0}">  
-        890000
-      </div>
-
+        223424
     </div>
   </div>
 </template>
 <script lang="ts" setup>
   import { ref } from 'vue';
   import { CheckCircleOutlined ,ExclamationCircleOutlined} from '@ant-design/icons-vue';
-  import Piepicture from './components/piepicture.vue'
   import {pieDataType} from '@/types/pie'
-  const data = ref<pieDataType[]>( [
-              {
-                value: 10,
-                name: '健康分',
-                datas:[ 
-                  { height: `问题是监控指标 'cpu_user'告警`,
-                    not_start:7 , 
-                    overdue: `异常`}]
-      
-              }
-            ])
   
 
 </script>
